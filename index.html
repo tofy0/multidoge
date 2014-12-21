@@ -17,20 +17,20 @@
     	$( document ).ready(function() {
     		$('#screenshots').click(function(e) {
     			$.slimbox([
-    				["images/md1.png", "Send Dogecoin"], 
-    				["images/md2.png", "Receive Dogecoin"], 
-    				["images/md3.png", "Dogecoin transactions"], 
-    				["images/md4.png", "Importing Dogecoin private keys"], 
-    				["images/md5.png", "Exporting Dogecoin private keys"], 
-    				["images/md6.png", "MultiDoge help"]], 
-    				0, 
+    				["images/md1.png", "Send Dogecoin"],
+    				["images/md2.png", "Receive Dogecoin"],
+    				["images/md3.png", "Dogecoin transactions"],
+    				["images/md4.png", "Importing Dogecoin private keys"],
+    				["images/md5.png", "Exporting Dogecoin private keys"],
+    				["images/md6.png", "MultiDoge help"]],
+    				0,
     				{loop: true});
     			e.preventDefault();
     		});
 	        $('#qr').click(function(e) {
 	          $.slimbox([
-	            ["images/donate.png", "Much thanks. Wow."]], 
-	            0, 
+	            ["images/donate.png", "Much thanks. Wow."]],
+	            0,
 	            {loop: true});
 	          e.preventDefault();
 	        });
@@ -47,7 +47,7 @@
 		          		<br><br>\
 		          		The developers won't give any support in such cases and are not liable for your actions.\
 		          	</p>\
-		          	<p><a href='https://github.com/langerhans/multidoge/releases/download/v0.1.3/multidoge-0.1.3-windows-setup.exe'><h3 style='text-align:center; color:#ffcc00;'>I read and understood the disclaimer. Download now!<h3><a><p>\
+		          	<p><a href='https://github.com/langerhans/multidoge/releases/download/v0.1.4/multidoge-0.1.4-windows-setup.exe'><h3 style='text-align:center; color:#ffcc00;'>I read and understood the disclaimer. Download now!<h3><a><p>\
 	          	</div>");
 	          e.preventDefault();
 	        });
@@ -64,7 +64,7 @@
 		          		<br><br>\
 		          		The developers won't give any support in such cases and are not liable for your actions.\
 		          	</p>\
-		          	<p><a href='https://github.com/langerhans/multidoge/releases/download/v0.1.3/multidoge-0.1.3.dmg'><h3 style='text-align:center; color:#ffcc00;'>I read and understood the disclaimer. Download now!<h3><a><p>\
+		          	<p><a href='https://github.com/langerhans/multidoge/releases/download/v0.1.4/multidoge-0.1.4.dmg'><h3 style='text-align:center; color:#ffcc00;'>I read and understood the disclaimer. Download now!<h3><a><p>\
 	          	</div>");
 	          e.preventDefault();
 	        });
@@ -81,7 +81,7 @@
 		          		<br><br>\
 		          		The developers won't give any support in such cases and are not liable for your actions.\
 		          	</p>\
-		          	<p><a href='https://github.com/langerhans/multidoge/releases/download/v0.1.3/multidoge-0.1.3-linux.jar'><h3 style='text-align:center; color:#ffcc00;'>I read and understood the disclaimer. Download now!<h3><a><p>\
+		          	<p><a href='https://github.com/langerhans/multidoge/releases/download/v0.1.4/multidoge-0.1.4-linux.jar'><h3 style='text-align:center; color:#ffcc00;'>I read and understood the disclaimer. Download now!<h3><a><p>\
 	          	</div>");
 	          e.preventDefault();
 	        });
@@ -89,7 +89,7 @@
     		if (get_url_param("dl") == "osx") {$("#osx").trigger("click");} else{
     		if (get_url_param("dl") == "lin") {$("#lin").trigger("click");}};};
 		});
-    	
+
     	function get_url_param(name)
 		{
 		name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
@@ -132,9 +132,9 @@
       <section>
         <div id="title">
           <h1>MultiDoge</h1>
-          
+
           <center><img src="images/MultiDoge.png" width="200" height="200"/>
-          
+
           <p>MultiDoge is a desktop Dogecoin client, powered by dogecoinj. Ported from the <a href="https://multibit.org/">MultiBit</a> Bitcoin client.</p>
           <hr>
           <span class="credits left" style="text-align:left;">
@@ -184,6 +184,6 @@ The app is based on DogecoinJ, which in turn is a port of BitCoinJ (<a href="htt
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+
   </body>
 </html>
