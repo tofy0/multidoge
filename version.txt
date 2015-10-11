@@ -1,2 +1,2 @@
-0.1.4
-message Sending to MultiSig
+0.1.5
+message Mandatory update in preparation of Dogecoin Core 1.10
