@@ -1,2 +1,2 @@
-0.1.5
-message Mandatory update in preparation of Dogecoin Core 1.10
+0.1.6
+message Mandatory update to fix issues with syncing past Oct 12. Sorry, bad coincidence ;)
