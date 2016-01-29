@@ -1,2 +1,2 @@
-0.1.6
-message Mandatory update to fix issues with syncing past Oct 12. Sorry, bad coincidence ;)
+0.1.7
+message Cryptsy removed, Poloniex added. Welcome back, exchange rates :)
